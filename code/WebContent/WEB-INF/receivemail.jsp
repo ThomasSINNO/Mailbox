@@ -12,6 +12,6 @@ String mess = (String) request.getAttribute("str");
 out.println(mess);
 %>
 <br>
-<a href="/email/Menu"> Go back to menu</a>
+<a href="Menu"> Go back to menu</a>
 </body>
 </html>

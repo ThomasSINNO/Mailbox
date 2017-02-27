@@ -20,6 +20,6 @@ String pw = (String) request.getAttribute("password");
 out.println(pw);
 %>
 <br>
-<a href="/email/Accueil"> back to accueil</a>
+<a href="Accueil"> back to accueil</a>
 </body>
 </html>

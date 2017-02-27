@@ -9,6 +9,6 @@
 <body>
 Logout Sucessful
 <br>
-<a href="/email/Accueil"> Connexion</a>
+<a href="Accueil"> Connexion</a>
 </body>
 </html>
