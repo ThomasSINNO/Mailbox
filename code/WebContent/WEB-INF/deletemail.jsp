@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>delete mail</title>
+</head>
+<body>
+<%
+String mess = (String) request.getAttribute("del");
+out.println(mess);
+%>
+<br>
+<a href="/email/Menu"> Go back to menu</a>
+</body>
+</html>
